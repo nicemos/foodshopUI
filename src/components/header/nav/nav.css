@@ -1,0 +1,36 @@
+.navbar * {
+  margin: 0 calc(var(--unit) * 0.4);
+  font-size: calc(var(--unit) * 0.8);
+  color: var(--white);
+}
+
+.navbar *:hover {
+  color: var(--primaryColour);
+  border-bottom: var(--primaryBorder);
+  padding-bottom: calc(var(--unit) / 4);
+}
+
+.iconsNav {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.iconsNav li {
+  display: inline-block;
+  color: var(--white);
+  cursor: pointer;
+  font-size: var(--unit);
+  margin: calc(var(--unit) * var(--unit) / 4);
+  padding: calc(var(--unit) / 2);
+  padding-right: 0px;
+}
+
+.iconsNav li :hover {
+  color: var(--primaryColour);
+  border-bottom: var(--primaryBorder);
+  padding-bottom: calc(var(--unit) / 4);
+}
+
+.fa-bars {
+  display: none;
+}

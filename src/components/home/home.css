@@ -1,0 +1,60 @@
+.home {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: calc(var(--unit) / 10) calc(var(--unit) * 5);
+  font-size: var(--unit);
+  background: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)),
+    url(../../assets/images/home-img.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 5%;
+}
+.home-content {
+  width: 50%;
+}
+.home-span {
+  color: var(--primaryColour);
+  text-transform: uppercase;
+}
+
+.home-h3 {
+  font-size: calc(var(--unit) * 1.5);
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.home-p {
+  font-size: calc(var(--unit) / 1.5);
+  font-weight: lighter;
+  line-height: 1.8em;
+  padding: 1rem 0;
+  color: #eee;
+}
+.sticky-note {
+  width: 30%;
+  height: 30%;
+  background-color: #deb887dd;
+  padding: calc(var(--unit) / 2);
+  font-family: "Dancing Script", cursive;
+  color: var(--blackColour);
+  transform: rotateZ(20deg);
+  box-shadow: var(--cardShadow);
+}
+.sticky-note > span {
+  color: var(--deleteColour);
+}
+.home-btn {
+  margin-top: calc(var(--unit) / 1);
+  display: inline-block;
+  padding: calc(var(--unit) / 2) calc(var(--unit) * 1.5);
+  font-size: inherit;
+  color: black;
+  background: var(--primaryColour);
+  cursor: var(--cursorType);
+}
+
+.home-btn:hover {
+  letter-spacing: calc(var(--unit) / 10);
+}

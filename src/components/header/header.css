@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  background: var(--headerBG);
+  align-items: center;
+  justify-content: space-between;
+  padding: calc(var(--unit) / 10) calc(var(--unit) * 3);
+  margin: auto;
+  border-bottom: calc(var(--unit) * 0.01) solid var(--primaryColour);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.logoImg {
+  max-width: calc(var(--unit) * 2.5);
+  padding: calc(var(--unit) * 0.001);
+}

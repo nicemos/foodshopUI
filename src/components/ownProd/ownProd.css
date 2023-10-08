@@ -1,0 +1,76 @@
+.products {
+  justify-content: center;
+}
+#products {
+  font-size: calc(var(--unit) * 1.5);
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+  padding: calc(var(--unit) / 5);
+  padding-top: calc(var(--unit));
+}
+.products span {
+  text-transform: uppercase;
+  color: var(--primaryColour);
+}
+
+.box-container {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  grid-template-columns: repeat(auto-fit, minmax(calc(var(--unit) * 10), 1fr));
+  gap: 1.5rem;
+}
+
+.products .box-container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  text-align: center;
+  border: 0.2rem solid #ffc107;
+}
+.products .box-container .box .icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: auto;
+  width: 20px;
+  /* height: 20px; */
+}
+.icons a {
+  color: whitesmoke;
+}
+
+.products .box-container .box .icons a:hover {
+  color: #ffc107;
+}
+
+.products .box-container .box img {
+  width: 100%;
+}
+
+.products .box-container .box .content h3 {
+  color: #fff;
+  font-size: 60%;
+}
+
+.products .box-container .box .content .stars {
+  padding: 0 1.5rem;
+  color: #ffc107;
+}
+
+.products .box-container .box .content .stars i {
+  font-size: 60%;
+}
+
+.products .box-container .box .content .price {
+  color: #fff;
+  font-size: 90%;
+}
+
+.products .box-container .box .content .price span {
+  text-decoration: line-through;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}

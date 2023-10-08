@@ -1,0 +1,69 @@
+.menu {
+  justify-content: center;
+}
+#menu {
+  font-size: calc(var(--unit) * 1.5);
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+  padding: calc(var(--unit) / 5);
+  padding-top: calc(var(--unit));
+}
+.menu span {
+  text-transform: uppercase;
+  color: var(--primaryColour);
+}
+
+.box-container {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  grid-template-columns: repeat(auto-fit, minmax(calc(var(--unit) * 10), 1fr));
+  gap: 1.5rem;
+}
+
+.menu .box-container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0rem;
+  padding: 1rem 3rem;
+  text-align: center;
+  border: 0.2rem solid #ffc107;
+}
+
+.menu .box-container .box img {
+  height: 40%;
+  border-radius: 50%;
+}
+
+.menu .box-container .box h3 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.menu .box-container .box .price {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+.menu .box-container .box .price span {
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  font-weight: lighter;
+}
+
+.menu .box-container .box:hover {
+  background: #443300;
+  transition: 0.5s;
+}
+#menu-btn {
+  display: flex;
+  font-size: calc(var(--unit) * 0.8);
+  justify-content: center;
+  padding: 0.5rem;
+}
+#menu-btn:hover {
+  letter-spacing: calc(var(--unit) / 10);
+}
