@@ -1,0 +1,46 @@
+.reviews {
+  justify-content: center;
+}
+#reviews {
+  font-size: calc(var(--unit) * 1.5);
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+  padding: calc(var(--unit) / 5);
+  padding-top: calc(var(--unit));
+}
+.reviews span {
+  text-transform: uppercase;
+  color: var(--primaryColour);
+}
+
+.reviews .box-container .box {
+  border: var(--primaryBorder);
+  text-align: center;
+  padding: calc(var(--unit)*1.5) calc(var(--unit)*.5);
+}
+.reviews .box-container .box .quote {
+  color: var(--primaryColour);
+}
+.reviews .box-container .box p {
+  font-size: calc(var(--unit)*.75);
+  line-height: 1.2;
+  color: var(--pText);
+  padding:var(--unit) 0;
+}
+
+.reviews .box-container .box .user {
+  height: calc(var(--unit)*3.5);
+  width: calc(var(--unit)*3.5);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviews .box-container .box h3 {
+  padding: calc(var(--unit)/2) 0;
+  font-size: var(--unit);
+  color: var(--white);
+}
+.reviews .box-container .box .stars {
+  font-size: var(--unit);
+}

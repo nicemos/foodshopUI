@@ -1,0 +1,84 @@
+
+.footer {
+  background: var(--secondaryBlack);
+  text-align: center;
+}
+
+.footer .share {
+  padding: calc(var(--unit)/2) 0;
+}
+
+.footer .share a {
+  line-height: calc(var(--unit)*2.5);
+  font-size: calc(var(--unit)*1.5);
+  color: var(--white);
+  padding: calc(var(--unit)/2);
+  margin: calc(var(--unit)/4);
+  border-radius: 50%;
+}
+
+.socialWrapper:hover {
+  background-color: var(--primaryColour);
+  color: var(--blackColour);
+}
+.socialWrapper {
+  display: inline-block;
+  width: calc(var(--unit)*2.5);
+  border-radius: 50%;
+  border:var(--primaryBorder);
+}
+
+/* tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: var(--primaryColour);
+  font-size: calc(var(--unit)*0.75);
+  color: var(--blackColour);
+  text-align: center;
+  border-radius: 6px;
+  padding: 0px calc(var(--unit));
+  position: absolute;
+  margin-top:calc(var(--unit)*2.5);
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/* End of tooltip */
+
+.footer .links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: calc(var(--unit)/2) 0;
+  gap: calc(var(--unit)/2);
+}
+
+.footer .links a {
+  padding: calc(var(--unit)/2*0.7) calc(var(--unit)/2);
+  color: var(--white);
+  border:var(--primaryBorder);
+  font-size: var(--unit);
+}
+
+.footer .links a:hover {
+  background: var(--primaryColour);
+  color: var(--blackColour);
+}
+
+.footer .credit {
+  font-size: var(--unit);
+  color: var(--white);
+  font-weight: lighter;
+  padding: calc(var(--unit)*0.75);
+}
+
+.footer .credit span {
+  color: var(--primaryColour);
+}

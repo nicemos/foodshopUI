@@ -35,13 +35,13 @@ const Nav = () => {
       <nav className="navbar" ref={navbarRef} aria-label="Menu">
         <a href="#home">Home</a>
         <a href="#menu">Menu</a>
-        <a href="#products">Products</a>
+        <a href="#products">Creations</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
-        <a href="#review">Reviews</a>
-        <a href="#blogs">Blogs</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#blog">Blogs</a>
       </nav>
-      <nav aria-label="search, cart and bar menu">
+      <nav aria-label="search, cart and bar menu" className="icons-navbar">
         <ul className="iconsNav">
           <li
             className="fas fa-search"
@@ -75,7 +75,6 @@ const Nav = () => {
           </li>
         </ul>
       </nav>
-
       <Searchbar searchRef={searchRef} />
       <Cart cartRef={cartRef} />
     </>

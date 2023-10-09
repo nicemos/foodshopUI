@@ -1,3 +1,4 @@
+
 .navbar * {
   margin: 0 calc(var(--unit) * 0.4);
   font-size: calc(var(--unit) * 0.8);
@@ -11,8 +12,8 @@
 }
 
 .iconsNav {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  right: -100%;
 }
 
 .iconsNav li {
@@ -28,7 +29,7 @@
 .iconsNav li :hover {
   color: var(--primaryColour);
   border-bottom: var(--primaryBorder);
-  padding-bottom: calc(var(--unit) / 4);
+  padding: calc(var(--unit) / 10);
 }
 
 .fa-bars {

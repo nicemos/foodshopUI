@@ -4,7 +4,7 @@ import "./about.css";
 const About = () => {
   const [historyToggle, setHistoryToggle] = useState(false);
   return (
-    <article className="about" id="about">
+    <article id="about" className="about">
       <h1 id="about-heading" className="about-heading">
         <span>about</span> food & us
       </h1>

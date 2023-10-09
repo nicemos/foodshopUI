@@ -2,47 +2,37 @@
   :root {
     font-size: 2vw;
   }
-
-  .fa-bars {
-    display: inline-block;
-  }
-
   .navbar {
     position: absolute;
     top: 100%;
     right: -100%;
+    line-height: 3rem;
     background: var(--blackColour);
-    width: calc(var(--unit) * 15);
-    height: calc(100vh - var(--unit) * 4 + var(--unit) / 4);
+    width: calc(var(--unit) * 10);
   }
-
   .navbar.active {
     right: 0;
   }
-
   .navbar a {
-    color: #fff;
+    color: var(--white);
     display: block;
-    margin: 1.5rem;
-    padding: 0.5rem;
-    font-size: 2rem;
+    margin: calc(var(--unit) * 0.75);
+    padding: calc(var(--unit)/4);
+    font-size: var(--unit);
   }
-
-  /* Home */
-  .home {
-    width: 100%;
-    padding: 0px;
-    background-position: center;
-    justify-content: center;
-    text-align: center;
+  .fa-bars {
+    display: inline-block !important;
   }
-
-  .home-h3 {
-    font-size: calc(var(--unit) * 1.1);
-  }
-
   .sticky-note {
     display: none;
   }
-  /* Home end */
+  #home {
+    padding: 20%;
+  }
+  #home section {
+    width: 100%;
+  }
+  .contact .row{
+    flex-direction: column;
+  }
 }

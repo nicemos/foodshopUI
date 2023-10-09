@@ -4,7 +4,10 @@
 :root {
   /* Theme Colours */
   /* Dark */
-  --primaryColour: #ffc107;
+  /* --primaryColour: #ffc107; */
+  /* --boxHoverColour: #443300; */
+  --primaryColour: #9dd16a;
+  --boxHoverColour: #55753661;
   --white: whitesmoke;
   --blackColour: black;
   --secondaryBlack: #13131a;
@@ -25,10 +28,9 @@
   /* End of Theme Colors */
 
   --cursorType: pointer;
-  --primaryBorder: 0.2rem solid #ffc107;
-  --inlineBlock: inline-block;
+  --primaryBorder: 0.2rem solid var(--primaryColour);
   --unit: 2rem;
-  --radiusFull: 50%;
+  --fullRadius: 50%;
 
   --cardShadow: 0.6px 7.9px 2px rgba(0, 0, 0, 0.025),
     1.8px 21.8px 5.5px rgba(0, 0, 0, 0.036),
@@ -40,7 +42,6 @@
   overflow-x: hidden;
   scroll-padding-top: calc(var(--unit) * 4 + var(--unit) * 0.5);
   scroll-behavior: smooth;
-  padding: 0 calc(var(--unit) * 2);
 }
 
 * {
@@ -55,7 +56,9 @@
   text-transform: capitalize;
   transition: 0.2s linear;
 }
-
+html{
+  padding: 0px 7vw;
+}
 html::-webkit-scrollbar {
   width: 0.8rem;
 }
@@ -70,4 +73,22 @@ html::-webkit-scrollbar-thumb {
 body {
   background: var(--bodyBG);
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .header{
+    height: 12%;
+  }
+  .header .navbar a {
+    font-size: 1.85rem;
+  }
+}
+
+@media (max-width: 450px) {
+   .fa-bars {
+    display: inline-block;
+  }
+  html {
+    font-size: 50%;
+  }
 }

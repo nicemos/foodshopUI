@@ -13,7 +13,7 @@ const OwnProd = () => {
   return (
     <section className="products" id="products">
       <h1 className="heading">
-        our own<span> creations</span>
+        our unique<span> creations</span>
       </h1>
 
       <section className="box-container">

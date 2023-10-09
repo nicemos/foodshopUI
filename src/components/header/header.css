@@ -3,13 +3,13 @@
   background: var(--headerBG);
   align-items: center;
   justify-content: space-between;
-  padding: calc(var(--unit) / 10) calc(var(--unit) * 3);
   margin: auto;
-  border-bottom: calc(var(--unit) * 0.01) solid var(--primaryColour);
+  border-bottom:var(--primaryBorder);
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  padding: 0px 10vw;
+  width: 100%;
   z-index: 9999;
 }
 

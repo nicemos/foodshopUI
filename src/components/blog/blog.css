@@ -1,0 +1,50 @@
+.blog {
+  justify-content: center;
+}
+#blog {
+  font-size: calc(var(--unit) * 1.5);
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+  padding: calc(var(--unit) / 5);
+  padding-top: calc(var(--unit));
+}
+.blog span {
+  text-transform: uppercase;
+  color: var(--primaryColour);
+}
+.blog .box-container .box {
+  border:var(--primaryBorder);
+  margin: auto;
+  overflow: hidden;
+}
+.blog .box-container .box .image img {
+  height: 25%;
+  width: 100%;
+}
+
+.blog .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+
+.blog .box-container .box .content .title {
+  font-size: calc((var(--unit) / 2) * 1.3);
+  color: var(--white);
+}
+
+.blog .box-container .box .content .title:hover {
+  color: var(--primaryColour);
+}
+
+.blog .box-container .box .content #byadmin-span {
+  color: var(--primaryColour);
+  display: block;
+  padding-top: calc(var(--unit)/4);
+}
+
+.blog .box-container .box .content p {
+  font-size: calc(var(--unit) /2 * 1.2);
+  color: #ccc;
+  padding: calc(var(--unit) * 0.1) 0;
+}
+

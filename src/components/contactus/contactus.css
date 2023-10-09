@@ -1,0 +1,79 @@
+.contact {
+  justify-content: center;
+}
+#contact {
+  font-size: calc(var(--unit) * 1.5);
+  text-transform: uppercase;
+  color: var(--white);
+  text-align: center;
+  padding: calc(var(--unit) / 5);
+  padding-top: calc(var(--unit));
+}
+.contact span {
+  text-transform: uppercase;
+  color: var(--primaryColour);
+}
+.contacth1{
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.contact .row {
+  display: flex;
+  background: #13131a;
+  gap: 1rem;
+}
+
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact .row form {
+  flex: 60%;
+  padding: calc(var(--unit)) calc(var(--unit)/4);
+  text-align: center;
+}
+
+.contact .row form h3 {
+  text-transform: uppercase;
+  font-size: var(--unit);
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.contact .row form .inputBox {
+  display: flex;
+  align-items: center;
+  margin: calc(var(--unit)*0.7) 0;
+  background: var(--secondaryBlack);
+  border:var(--primaryBorder);
+  border-radius: 20px;
+}
+
+.contact .row form .inputBox span {
+  color: #fff;
+  font-size: var(--unit);
+  padding-left: var(--unit);
+}
+
+.contact .row form .inputBox input {
+  width: 100%;
+  padding: calc(var(--unit)/2);
+  font-size: calc(var(--unit)*0.75);
+  color: #fff;
+  text-transform: none;
+  background: none;
+}
+
+.contact-form #submit-btn {
+  font-size: var(--unit);
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+}
+.contact-form #submit-btn:hover {
+  letter-spacing: calc(var(--unit)/10);
+  cursor: pointer;
+}

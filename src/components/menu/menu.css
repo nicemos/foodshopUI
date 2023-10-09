@@ -16,8 +16,6 @@
 
 .box-container {
   display: grid;
-  width: 90%;
-  margin: auto;
   grid-template-columns: repeat(auto-fit, minmax(calc(var(--unit) * 10), 1fr));
   gap: 1.5rem;
 }
@@ -26,43 +24,48 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 0rem;
-  padding: 1rem 3rem;
+  gap: 0px;
+  padding: calc(var(--unit)/2) calc(var(--unit)*1.5);
   text-align: center;
-  border: 0.2rem solid #ffc107;
+  border: var(--primaryBorder);
+  text-align: center;
+  border: var(--primaryBorder);
 }
 
 .menu .box-container .box img {
-  height: 40%;
-  border-radius: 50%;
+  height: calc(var(--unit)*5);
+  border-radius: var(--fullRadius);
 }
 
 .menu .box-container .box h3 {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: calc(var(--unit)*0.75);
+  padding: calc(var(--unit)/2);
 }
 
 .menu .box-container .box .price {
-  color: #fff;
-  font-size: 2.5rem;
-  padding: 1rem 0;
+  color: var(--white);
+  font-size: calc(var(--unit) * 1.25);
+  padding: calc(var(--unit)/2) 0;
 }
 
 .menu .box-container .box .price span {
-  font-size: 1.5rem;
+  font-size: calc(var(--unit)*0.75);
   text-decoration: line-through;
   font-weight: lighter;
 }
 
 .menu .box-container .box:hover {
-  background: #443300;
+  /* background: var(--boxHoverColour); */
+  background: var(--boxHoverColour);
   transition: 0.5s;
+  cursor: pointer;
 }
 #menu-btn {
   display: flex;
   font-size: calc(var(--unit) * 0.8);
   justify-content: center;
-  padding: 0.5rem;
+  padding: calc(var(--unit)/4);
 }
 #menu-btn:hover {
   letter-spacing: calc(var(--unit) / 10);
