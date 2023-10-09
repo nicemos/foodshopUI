@@ -39,7 +39,7 @@ const Nav = () => {
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
         <a href="#reviews">Reviews</a>
-        <a href="#blog">Blogs</a>
+        <a href="#blog">Blog</a>
       </nav>
       <nav aria-label="search, cart and bar menu" className="icons-navbar">
         <ul className="iconsNav">
