@@ -73,7 +73,7 @@
 }
 .abt-sp-wrapper *,
 #us * {
-  font-size: calc(var(--unit));
+  font-size: calc(var(--unit) /2 * 1.3);
 }
 #us h3,
 #abt-sp-wrapper h3 {
@@ -95,7 +95,7 @@
 .us {
   color: var(--white);
 }
-.history > p,
+.us .history > p,
 .abt-sp-wrapper > p {
   color: #b2b2b2;
 }

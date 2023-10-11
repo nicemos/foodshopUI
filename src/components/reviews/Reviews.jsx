@@ -6,7 +6,9 @@ import {
   faStar,
   faStarHalfStroke,
 } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 const Reviews = () => {
+  const [more, setMore] = useState(true);
   return (
     <>
       <section id="reviews" className="reviews">
@@ -17,15 +19,16 @@ const Reviews = () => {
         <section className="box-container">
           {reviews.map((item, index) => (
             <section className="box" key={index * Math.random()}>
-              <span class="quote">
+              <span className="quote">
                 <FontAwesomeIcon icon={faQuoteRight} />
               </span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-                nulla sit libero nemo fuga sequi nobis? Necessitatibus aut
-                laborum, nisi quas eaque laudantium consequuntur iste ex aliquam
-                minus vel? Nemo.
-              </p>
+              <article className="p">
+                {item.summary}
+                <details>
+                  <summary></summary>
+                  <article>{item.feedback}</article>
+                </details>
+              </article>
               <img src={item.img} className="user" alt="" />
               <h3>john doe</h3>
               <span className="stars">

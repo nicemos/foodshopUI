@@ -4,7 +4,6 @@
 #reviews {
   font-size: calc(var(--unit) * 1.5);
   color: var(--white);
-  text-transform: uppercase;
   text-align: center;
   padding: calc(var(--unit) / 5);
   padding-top: calc(var(--unit));
@@ -17,27 +16,57 @@
 .reviews .box-container .box {
   border: var(--primaryBorder);
   text-align: center;
-  padding: calc(var(--unit)*1.5) calc(var(--unit)*.5);
+  padding: calc(var(--unit) * 1.5) calc(var(--unit) * 0.5);
 }
 .reviews .box-container .box .quote {
   color: var(--primaryColour);
 }
-.reviews .box-container .box p {
-  font-size: calc(var(--unit)*.75);
+.reviews .box-container .box .p {
+  font-size: calc(var(--unit) * 0.75);
   line-height: 1.2;
   color: var(--pText);
-  padding:var(--unit) 0;
+  padding: var(--unit) 0;
+}
+/* Expand/collapse */
+.reviews .box-container .box .p details summary {
+  text-align: right;
+  outline: none;
+  cursor: pointer;
+}
+.reviews .box-container .box .p details[open] summary {
+  position: absolute;
+  bottom: -10px;
+  right: 0%;
+  list-style-type: "";
+}
+.reviews .box-container .box .p {
+  position: relative;
+}
+/* Create a new text/symbol on the right side */
+.reviews .box-container .box .p details summary::after {
+  margin-left: 1ch;
+  display: inline-block;
+  /* content: '▶️'; Can use symboles/emojis like this here instead!*/
+  content: "...More";
+  color: var(--primaryColour);
+  font-size: inherit;
+  transition: 0.5s;
 }
 
+.reviews .box-container .box .p details[open] > summary::after {
+  content: "...Less";
+}
+/* End of Expand/collapse */
+
 .reviews .box-container .box .user {
-  height: calc(var(--unit)*3.5);
-  width: calc(var(--unit)*3.5);
+  height: calc(var(--unit) * 3.5);
+  width: calc(var(--unit) * 3.5);
   border-radius: 50%;
   object-fit: cover;
 }
 
 .reviews .box-container .box h3 {
-  padding: calc(var(--unit)/2) 0;
+  padding: calc(var(--unit) / 2) 0;
   font-size: var(--unit);
   color: var(--white);
 }

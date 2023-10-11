@@ -21,15 +21,23 @@ const About = () => {
         <section id="abt-sp-wrapper" className="abt-sp-wrapper">
           <h3>what makes our food special?</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae
-            ratione a officiis id temporibus autem? Quod nemo facilis
-            cupiditate. Ex, vel?
+            We set a very high standard for our food quality and ensure that our
+            guests receive the same quality with every meal. High-quality
+            ingredients prepared with every intricacy of temperature and timengs
+            paired with experienced chefs and excellent hygiene practices are
+            very important to us. Our chefs understand our guests' needs and
+            work harmoniously with the kitchen staff to ensure that guests
+            receive their great tasting meals the way they ordered it every
+            time.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet
-            enim quod veritatis, nihil voluptas culpa! Neque consectetur
-            obcaecati sapiente?
+            Our food attract people from diffrent towns regularly. We serve over
+            a million orders successfully every year!
+          </p>
+          <p>Our food won 'Pretty Food Festival Award' Three times in a row!</p>
+          <p>
+            Our food hygiene rating is at the highest it can be! The number
+            Five(5)!
           </p>
           <a
             href="#us"
@@ -49,40 +57,25 @@ const About = () => {
             </h4>
             <h3>Who are We?</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
-              veritatis quam, eius doloremque minima eligendi repudiandae, sequi
-              tempora sed fugit earum ipsum autem, excepturi quae dolorem
-              officiis doloribus inventore facilis! Dicta, repellendus ipsum
-              consequuntur eaque veritatis voluptatem quaerat magni consequatur
-              laboriosam aspernatur laudantium sit ab nisi delectus
-              exercitationem ex eveniet necessitatibus! Dignissimos illum autem
-              voluptas ut maiores iure quos illo. Lorem ipsum dolor, sit amet
+              Mike Bellefontaine is the founder and owner of The Great
+              Restaurant chain, a highly successful, full-service restaurants
+              specializing in high quality, Bellefontaine in Manchester a major
+              city in NorthWest of England.
             </p>
             <p>
-              consectetur adipisicing elit. Ad veritatis quam, eius doloremque
-              minima eligendi repudiandae, sequi tempora sed fugit earum ipsum
-              autem, excepturi quae dolorem officiis doloribus inventore
-              facilis! Dicta, repellendus ipsum consequuntur eaque veritatis
-              voluptatem quaerat magni consequatur laboriosam aspernatur
-              laudantium sit ab nisi delectus exercitationem ex eveniet
-              necessitatibus! Dignissimos illum autem voluptas ut maiores iure
-              quos illo.
+              One of the most remarkable and noteworthy parts of Mike's story is
+              that in addition to being a world class restaurant operator he's
+              also a 4 Time World Pizza Champion and 8 Time World Medalist Pizza
+              Acrobat, holding more international medals than any other Briton.
             </p>
           </article>
           <article className="history">
             <h3>Why choose us?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
-              ipsum, consectetur quasi magnam debitis aliquam iure provident
-              quae? Beatae quod laboriosam nesciunt, expedita adipisci sunt.
-              Nostrum excepturi ullam quibusdam culpa. Doloribus, placeat?
-              Laboriosam, molestiae voluptates. Sunt, rem placeat illum ullam
-              pariatur autem, est quos iste aliquid perferendis vitae! Facere
-              autem in dolor reprehenderit illo commodi dolores esse dolorem cum
-              velit. Quidem necessitatibus qui quisquam, error eius rerum! Optio
-              tempora incidunt earum perspiciatis debitis quibusdam atque vero,
-              asperiores facere dolore nostrum neque modi voluptas quaerat
-              pariatur et veniam reiciendis? Eaque, architecto?
+              Having worked from scratch and going through years of
+              transformation, Mike and his team now know how to bring best
+              flavour out of the food. It only means that our customers (you)
+              can only have the greatest taste every time.
             </p>
           </article>
         </section>

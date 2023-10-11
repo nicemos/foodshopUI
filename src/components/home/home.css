@@ -28,6 +28,7 @@
 .home-p {
   font-size: calc(var(--unit) / 1.5);
   font-weight: lighter;
+  text-transform: none;
   line-height: 1.8em;
   padding: 1rem 0;
   color: #eee;

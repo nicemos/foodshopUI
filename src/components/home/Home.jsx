@@ -8,8 +8,8 @@ const Home = () => {
           fresh & hot <span className="home-span">food on the </span>Spot
         </h3>
         <p className="home-p">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
-          labore, sint cupiditate distinctio tempora reiciendis.
+          The unmatched, unique blend of herbs and spices paired with talented
+          chefs gives you mouthwatering food, fast.
         </p>
         <a href="#menu" className="home-btn">
           get yours now
