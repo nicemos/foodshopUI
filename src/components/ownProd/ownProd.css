@@ -56,7 +56,7 @@
 }
 
 .products .box-container .box .content h3 {
-  color: var(--white);
+  color: var(--primaryColour);
   font-size: 60%;
 }
 

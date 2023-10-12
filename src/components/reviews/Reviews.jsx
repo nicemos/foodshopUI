@@ -30,7 +30,7 @@ const Reviews = () => {
                 </details>
               </article>
               <img src={item.img} className="user" alt="" />
-              <h3>john doe</h3>
+              <h3>{item.name}</h3>
               <span className="stars">
                 <i className="fas fa-star">
                   <FontAwesomeIcon icon={faStar} />

@@ -57,9 +57,9 @@ const About = () => {
             </h4>
             <h3>Who are We?</h3>
             <p>
-              Mike Bellefontaine is the founder and owner of The Great
+              Mike Bellefontaine is the founder and owner of The Greatest
               Restaurant chain, a highly successful, full-service restaurants
-              specializing in high quality, Bellefontaine in Manchester a major
+              specializing in high quality, Bellefontaine in Manchester, a major
               city in NorthWest of England.
             </p>
             <p>

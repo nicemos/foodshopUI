@@ -12,9 +12,9 @@ const Menu = () => {
         {menu.map((item, index) => (
           <span className="box" key={index * Math.random()}>
             <img src={item.img} alt="" />
-            <h3>tasty and healty</h3>
+            <h3>{item.name}</h3>
             <span className="price">
-              £5.99 <span>10.99</span>
+              £{item.price} {/*<span>£{item.old_price}</span>*/}
             </span>
             <a href="#" id="menu-btn" className="btn">
               add to cart

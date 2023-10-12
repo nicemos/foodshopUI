@@ -38,7 +38,7 @@
 }
 
 .menu .box-container .box h3 {
-  color: #fff;
+  color: var(--primaryColour);
   font-size: calc(var(--unit)*0.75);
   padding: calc(var(--unit)/2);
 }

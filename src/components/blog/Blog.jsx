@@ -11,18 +11,26 @@ const Blog = () => {
         {blog.map((item, index) => (
           <section className="box" key={index * Math.random()}>
             <span className="image">
-              <img src={item.img} alt="" />
+              <a
+                href={item.article_details}
+                id="title"
+                target="_blank"
+                title="Opens in a new tab"
+              >
+                <img src={item.img} alt={item.title} />
+                {item.title}
+              </a>
             </span>
             <section className="content">
-              <a href="#menu" className="title">
-                tasty and refreshing spices
-              </a>
-              <p id="byadmin-span">by admin / 21st may, 2021</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                dicta.
-              </p>
-              <a href="#" id="menu-btn" className="btn">
+              <p>{item.article_summary}</p>
+              <p id="byadmin-span">- by admin / 21st may, 2021</p>
+              <a
+                href={item.article_details}
+                id="menu-btn"
+                className="btn"
+                target="_blank"
+                title="Opens in a new tab"
+              >
                 read more
               </a>
             </section>

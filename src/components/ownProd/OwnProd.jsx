@@ -34,7 +34,7 @@ const OwnProd = () => {
               <img src={item.img} alt="" />
             </span>
             <section className="content">
-              <h3>fresh coffee</h3>
+              <h3>{item.name}</h3>
               <section className="stars">
                 <i className="fas fa-star">
                   <FontAwesomeIcon icon={faStar} />
@@ -53,7 +53,7 @@ const OwnProd = () => {
                 </i>
               </section>
               <span className="price">
-                £15.99 <span>£20.99</span>
+                £{item.price} <span>£{item.old_price}</span>
               </span>
               <a href="#" id="menu-btn" className="btn">
                 add to cart
