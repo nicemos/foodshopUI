@@ -16,9 +16,9 @@ const Home = () => {
         </a>
       </section>
       <section className="sticky-note">
-        This project is <span className="home-span">Front-end only</span> for
-        now. The values are hardcoded, simply for the demonstration purposes.
-        Responsive.
+        <span>Under construction...</span> <br />
+        This website is <span className="home-span">Front-end only</span> for
+        now. The data is coming from a file. It's responsive.
       </section>
     </main>
   );

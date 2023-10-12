@@ -21,15 +21,11 @@
   color: var(--white);
   cursor: pointer;
   font-size: var(--unit);
-  margin: calc(var(--unit) * var(--unit) / 4);
   padding: calc(var(--unit) / 2);
   padding-right: 0px;
 }
-
 .iconsNav li :hover {
   color: var(--primaryColour);
-  border-bottom: var(--primaryBorder);
-  padding: calc(var(--unit) / 10);
 }
 
 .fa-bars {

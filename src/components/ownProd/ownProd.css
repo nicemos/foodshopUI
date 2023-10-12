@@ -31,10 +31,8 @@
   border: var(--primaryBorder);
 }
 .products .box-container .box:hover {
-  /* background: var(--boxHoverColour); */
   background: var(--boxHoverColour);
   transition: 0.5s;
-  cursor: pointer;
 }
 .products .box-container .box .icons {
   display: flex;
