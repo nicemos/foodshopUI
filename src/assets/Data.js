@@ -16,7 +16,7 @@ import reviewImage2 from "./images/avatar2.png";
 import reviewImage3 from "./images/avatar3.png";
 import blogImage1 from "./images/hamburger.jpeg";
 import blogImage2 from "./images/spices.jpg";
-import blogImage3 from "./images/blog-3.jpeg";
+import blogImage3 from "./images/foodsafety.jpg";
 const menu = [
   {
     img: menuImage1,
