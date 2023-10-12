@@ -10,10 +10,10 @@ import cartImage3 from "./images/cart-item-3.png";
 import cartImage4 from "./images/cart-item-4.png";
 import productImage1 from "./images/product-1.png";
 import productImage2 from "./images/product-2.png";
-import productImage3 from "./images/product-3.png";
-import reviewImage1 from "./images/pic-1.png";
-import reviewImage2 from "./images/pic-2.png";
-import reviewImage3 from "./images/pic-3.png";
+import productImage3 from "./images/wafflechickenstick.jpg";
+import reviewImage1 from "./images/avatar.png";
+import reviewImage2 from "./images/avatar2.png";
+import reviewImage3 from "./images/avatar3.png";
 import blogImage1 from "./images/hamburger.jpeg";
 import blogImage2 from "./images/spices.jpg";
 import blogImage3 from "./images/blog-3.jpeg";
@@ -93,8 +93,8 @@ const products = [
   {
     img: productImage1,
     name: "House Special Burger",
-    price: 15.99,
-    old_price: 20.99,
+    price: 9.99,
+    old_price: 15.99,
   },
   {
     img: productImage2,
@@ -104,9 +104,9 @@ const products = [
   },
   {
     img: productImage3,
-    name: "Organic Coffee Beans",
-    price: 9.99,
-    old_price: 14.99,
+    name: "Waffle chicken stick",
+    price: 4.99,
+    old_price: 9.99,
   },
 ];
 const reviews = [

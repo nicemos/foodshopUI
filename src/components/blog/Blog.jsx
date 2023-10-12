@@ -23,7 +23,7 @@ const Blog = () => {
             </span>
             <section className="content">
               <p>{item.article_summary}</p>
-              <p id="byadmin-span">- by admin / 21st may, 2021</p>
+              <p id="byadmin-span">- by admin | 21st may, 2021</p>
               <a
                 href={item.article_details}
                 id="menu-btn"
