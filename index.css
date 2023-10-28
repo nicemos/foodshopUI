@@ -83,6 +83,9 @@ body {
   .header .navbar a {
     font-size: 1.85rem;
   }
+  #html{
+    padding: 0px;
+  }
 }
 
 @media (max-width: 450px) {
