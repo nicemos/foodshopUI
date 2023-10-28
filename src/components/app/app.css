@@ -2,6 +2,9 @@
   :root {
     font-size: 2vw;
   }
+  html{
+    padding-inline: 3.5vw;
+  }
   .navbar {
     position: absolute;
     top: 100%;

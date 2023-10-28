@@ -3,6 +3,7 @@
 
 :root {
   /* Theme Colours */
+  /* color-scheme: light dark; */
   /* Dark */
   /* --primaryColour: #ffc107; */
   /* --boxHoverColour: #443300; */
@@ -56,7 +57,7 @@
   text-transform: capitalize;
   transition: 0.2s linear;
 }
-html{
+html {
   padding: 0px 7vw;
 }
 html::-webkit-scrollbar {
@@ -76,7 +77,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .header{
+  .header {
     height: 12%;
   }
   .header .navbar a {
@@ -85,10 +86,11 @@ body {
 }
 
 @media (max-width: 450px) {
-   .fa-bars {
+  .fa-bars {
     display: inline-block;
   }
-  html {
+  #html {
+    padding: 0px;
     font-size: 50%;
   }
 }
